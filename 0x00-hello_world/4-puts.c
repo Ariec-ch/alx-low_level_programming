@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 
-/*
- * Comment
+/**
+ *main - This is a description
+ *Return: Always 0
  */
-int (void)
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 
