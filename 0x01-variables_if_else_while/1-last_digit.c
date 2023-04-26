@@ -3,8 +3,9 @@
 #include <time.h>
 
 /**
- * main - Program that prints the last digit
- * Return : Always 0 (Success)
+ * main - prints sign of the number
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
