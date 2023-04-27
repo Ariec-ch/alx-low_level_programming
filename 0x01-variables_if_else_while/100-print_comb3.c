@@ -10,7 +10,7 @@ int main(void)
 
 	for (d = '0'; d < '9'; d++)
 	{
-	for (r = d + 1; r < '9' ; r++)
+	for (r = d + 1; r <= '9' ; r++)
 	{
 		if (d != r)
 		{
