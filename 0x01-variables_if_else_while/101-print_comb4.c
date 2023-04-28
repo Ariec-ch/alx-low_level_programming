@@ -18,10 +18,12 @@ int main(void)
 					putchar(a);
 				putchar(b);
 				putchar(c);
-				if (a == 7 && b == 8)
+				{
+				if (a == '7' && b == '8')
 				continue;
 				putchar(',');
 				putchar(' ');
+				}
 				}
 			}
 		}
