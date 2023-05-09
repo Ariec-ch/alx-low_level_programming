@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strchr - a function that locates a character in a string
+ * *_strchr - a function that locates a character in a string
  * @s: character parameter
  * @c: character parameter
  * Return:  a pointer to the first occurrence of
@@ -17,4 +17,7 @@ char *_strchr(char *s, char c)
 		if (s[itr] == c)
 		{
 			return (s + itr);
+		}
+	}
+	return ('\0');
 }
