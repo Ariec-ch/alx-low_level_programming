@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * _abs - compute the absolute value of int
  * @c: input
