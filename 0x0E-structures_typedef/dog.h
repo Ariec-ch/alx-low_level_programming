@@ -1,13 +1,13 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct_dog - define a new type
+ * struct dog - define a new type
  * @name: character
  * @age: float
  * @owner: anoter char
  * Description: a dog certificate
  */
-struct dog 
+struct dog
 {
 	char *name;
 	float age;
